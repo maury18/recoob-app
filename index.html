@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/3167ce6dab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Recoob</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-background">
+            <div class="header-logo">
+                <img src="./img/LOGOTIPO W.svg" alt="" class="logo" />
+            </div>
+            <div class="header-nav">
+                <nav>
+                    <a href="#projects">Proyectos</a>
+                    <a href="#about-us">Sobre Nosotros</a>
+                    <a href="#services">Servicios</a>
+                    <a href="#contact">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" id="projects">
+        <i class="fa-solid fa-diagram-project icon-properties"></i>
+        <h2 class="main-heading center-text">Proyectos</h2>
+
+        <div class="projects">
+            <div class="project-centeno">
+                <h3 class="project-heading center-text">Proyecto centeno vista</h3>
+                <div class="project-gallery">
+                    <img src="./img/Proyecto Centeno vista  (1).jpg" alt="" class="gallery-1">
+                    <img src="./img/Proyecto Centeno vista  (4).jpg" alt="" class="gallery-2">
+                    <img src="./img/Proyecto Centeno vista  (5).jpg" alt="" class="gallery-3">
+                    <img src="./img/Proyecto Centeno vista  (2).jpg" alt="" class="gallery-5">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="about container" id="about-us">
+        <i class="fa-solid fa-address-card icon-properties"></i>
+        <h2 class="about-heading center-text">Sobre Nosotros</h2>
+        <p class="about-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem laborum
+            molestiae consequatur vero eos hic quisquam reprehenderit dolores impedit ex! Illum magni harum quasi
+            tenetur hic saepe rem sed libero.</p>
+    </section>
+    <section class="services" id="services">
+        <div class="about-service">
+            <h3 class="services-heading center-text">Nuestros Servicios</h3>
+            <div class="services">
+                <div class="services-service">
+                    <img src="./img/service1.2.jpg" class="service-img" alt="">
+                    <p class="service-paragraph center-text">Proyectos y Planos</p>
+                    <a href="#contact" class="service-link">Me interesa este servicio</a>
+                </div>
+                <div class="services-service">
+                    <img src="./img/service2.jpg" class="service-img" alt="">
+                    <p class="service-paragraph center-text">Proyectos y Planos</p>
+                    <a href="#contact" class="service-link">Me interesa este servicio</a>
+                </div>
+                <div class="services-service">
+                    <img src="./img/service3.1.jpg" class="service-img" alt="">
+                    <p class="service-paragraph center-text">Licencias de Construcción</p>
+                    <a href="#contact" class="service-link">Me interesa este servicio</a>
+                </div>
+            </div>
+
+            <div class="about-location">
+                <h3 class="location-heading center-text">Nos Ubicamos</h3>
+                <div class="location-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.5067295255735!2d-101.19001788561395!3d19.691039037469334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d0ddf049fd385%3A0x96068392ed6b1f92!2sC.%20Vicente%20Sta.%20Mar%C3%ADa%201223%2C%20Ventura%20Puente%2C%2058020%20Morelia%2C%20Mich.!5e0!3m2!1ses-419!2smx!4v1663477159785!5m2!1ses-419!2smx"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="location-map__big">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.5067295255735!2d-101.19001788561395!3d19.691039037469334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d0ddf049fd385%3A0x96068392ed6b1f92!2sC.%20Vicente%20Sta.%20Mar%C3%ADa%201223%2C%20Ventura%20Puente%2C%2058020%20Morelia%2C%20Mich.!5e0!3m2!1ses-419!2smx!4v1663477159785!5m2!1ses-419!2smx"
+                        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+    </section>
+
+    <section class="contact container" id="contact">
+        <i class="fa-solid fa-address-book icon-properties"></i>
+        <h2 class="contact-heading center-text">Contacto</h2>
+        <p class="contact-paragraph center-text">Puedes contactarnos llenando este formulario y te responderemos a la
+            brevedad
+            posible</p>
+
+        <div class="contact-form">
+            <form id="form" action="https://formspree.io/f/xbjbgnvp" method="post">
+                <div class="form-worker">
+                    <label>Mensaje para</label>
+                    <select name="trabajador" id="select-worker">
+                        <option value="">Ingeniero Noel</option>
+                        <option value="">Arquitecto Ruben</option>
+                    </select>
+                </div>
+
+                <div class="form-email">
+                    <label>Proporciona tu email</label>
+                    <input name="Email" id="email" type="email" class="email" placeholder="Tu email">
+                </div>
+
+                <div class="form-service">
+                    <label>Servicio que le interesa</label>
+                    <select name="servicio" id="select-service">
+                        <option>Proyectos y Planos</option>
+                        <option>Construcciones y Remodelaciones</option>
+                        <option>Licencias de construcción</option>
+                    </select>
+                </div>
+                <div class="form-capital">
+                    <label>Capital con el que cuenta</label>
+                    <select name="monto" id="select-capital">
+                        <option>menos de 50,000</option>
+                        <option>menos de 100,000</option>
+                        <option>menos de 200,000</option>
+                        <option>menos de 500,000</option>
+                        <option>menos de 1,000,000</option>
+                        <option>mas de 1,000,000</option>
+                        <option>Prefiero no decir</option>
+                    </select>
+                </div>
+                <div class="form-message">
+                    <label>Deja tu mensaje</label>
+                    <input name="mensaje" type="textarea" id="message" class="message">
+                </div>
+
+                <div class="spinner">
+                    <div class="sk-chase">
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                    </div>
+                </div>
+
+                <button type="submit" id="submit" class="submit disabled-button">Submit</button>
+            </form>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-left">
+                <img src="./img/LOGOTIPO Y.svg" alt="" class="footer-logo">
+                <p class="rights-reserved center-text">© Todos los derecho reservados, Recoob 2022</p>
+            </div>
+            <div class="footer-right">
+                <h3 class="schedule center-text">Horario de atención</h3>
+                <ul>
+                    <li>Lunes: 10:00 am - 18:30 pm</li>
+                    <li>Martes: 10:00 am - 18:30 pm</li>
+                    <li>Miercoles: 10:00 am - 18:30 pm</li>
+                    <li>Jueves: 10:00 am - 18:30 pm</li>
+                    <li>Viernes: 10:00 am - 18:30 pm</li>
+                    <li>Sábado: Cerrado</li>
+                    <li>Doming: Cerrado</li>
+                </ul>
+            </div>
+        </div>
+        <p class="developer center-text">Página creada por <a
+                href="https://www.linkedin.com/in/maurygr/"><span>Mauricio</span></a></p>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
